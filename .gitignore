@@ -1,0 +1,8 @@
+# Generated files
+animation.mp4
+coordinates.csv
+
+# Misc
+.vscode
+/.venv
+/cache

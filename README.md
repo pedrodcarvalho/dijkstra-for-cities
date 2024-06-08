@@ -61,6 +61,20 @@ python3 animation.py
 
 This will read the `coordinates.csv` file and generate an `animation.mp4` file showing the animated path.
 
+### Or you can simply
+
+```bash
+./run_dijkstra_visualization.sh "<query>"
+```
+
+Replace `<query>` with the name of the place you want to generate the road network for. For example:
+
+```bash
+./run_dijkstra_visualization.sh "Manhattan, New York, USA"
+```
+
+This will create a `coordinates.csv` file containing the coordinates of the nodes visited by Dijkstra's algorithm and generate an `animation.mp4` file showing the animated path.
+
 ## Example
 
 1. Generate the road network and run Dijkstra's algorithm for Manhattan, New York:

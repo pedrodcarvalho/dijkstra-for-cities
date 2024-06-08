@@ -11,8 +11,11 @@ fig, ax = plt.subplots(figsize=(10, 10))
 ax.set_xlim(data['longitude'].min(), data['longitude'].max())
 ax.set_ylim(data['latitude'].min(), data['latitude'].max())
 
+# Plot all points on the map
+ax.scatter(data['longitude'], data['latitude'], s=0.5, color='#333333')
+
 # Initialize an empty scatter plot
-scatter = ax.scatter([], [], s=0.5, color='white')
+scatter = ax.scatter([], [], s=0.5, color='#23a9f2')
 
 # Set figure background color and remove axes
 ax.set_facecolor('#202020')
